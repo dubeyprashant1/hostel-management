@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_room"
+        android:icon="@drawable/single_bed__1__removebg_preview"
+        android:title="@string/title_room" />
+
+
+
+    <item
+        android:id="@+id/navigation_hostelers"
+        android:icon="@drawable/multiple_users_silhouette_removebg_preview"
+        android:title="@string/title_hostelers" />
+
+    <item
+        android:id="@+id/navigation_attendance"
+        android:icon="@drawable/user__1__removebg_preview_1"
+        android:title="@string/title_attendance" />
+
+</menu>

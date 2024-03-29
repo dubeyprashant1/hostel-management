@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.myapplication.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_room"
+        android:name="com.example.myapplication.ui.rooms.RoomFragment"
+        android:label="Room"
+        tools:layout="@layout/fragment_room" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_hostelers"
+        android:name="com.example.myapplication.ui.hostelers.HostelersFragment"
+        android:label="Hostelers"
+        tools:layout="@layout/fragment_hostelers" />
+
+    <fragment
+        android:id="@+id/navigation_attendance"
+        android:name="com.example.myapplication.ui.attendance.AttendanceFragment"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_attendance" />
+</navigation>
